@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #040c1a;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 10px;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  padding: 10px;
+  background-color: #272c34;
+  border: none;
+  color: #eee;
+}
+
+#pdf {
+  display: block;
+  z-index: 10;
+  background-color: white;
+  padding: 0;
+  /* font-size: ; */
+  height: 840px;
+  width: 595px;
+  position: relative;
+  overflow: hidden;
+}
+
+.justifyMiddle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+  width:100%;
+  margin:5px;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  background-color: rgb(83, 124, 228);
+
+
+  box-shadow: 2px 1.5px 3px rgba(0, 0, 0, 0.623);
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(48, 97, 223);
+}
+
+button:active {
+  background-color: rgb(33, 74, 175);
+}
